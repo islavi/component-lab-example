@@ -7,7 +7,7 @@
     "watch": "npm run build -- --watch",
     "server": "webpack-dev-server --inline --progress --port 3000 --content-base src",
     "start": "npm run server",
-	"component-lab": "component-lab"
+	"ng2-component-lab": "ng2-component-lab"
   },
   "license": "MIT",
   "dependencies": {
@@ -35,7 +35,7 @@
     "angular2-router-loader": "^0.3.4",
     "angular2-template-loader": "^0.6.0",
     "awesome-typescript-loader": "^2.2.4",
-	"component-lab": "file:///C:\\dev\\github\\component-lab\\release",
+	"@islavi/ng2-component-lab": "file:///C:\\dev\\github\\islavi\\ng2-component-lab\\release",
     "css-loader": "^0.25.0",
     "raw-loader": "^0.5.1",
     "to-string-loader": "^1.1.4",

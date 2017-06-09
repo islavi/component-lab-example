@@ -1,4 +1,4 @@
-import { createLab } from 'component-lab';
+import { createLab } from '@islavi/ng2-component-lab';
 import { ComponentsModule } from './components.module';
 
 createLab({

@@ -1,4 +1,4 @@
-import { ButtonComponent } from "./feature/button.component";
+import { ButtonComponent } from "./lab/components/button.component";
 
 console.log("Israel");
 console.log(ButtonComponent);

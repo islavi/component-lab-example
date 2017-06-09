@@ -1,4 +1,4 @@
-import { experimentOn } from 'component-lab';
+import { experimentOn } from '@islavi/ng2-component-lab';
 import { CheckboxComponent } from "./../components/checkbox.component";
 
 export default experimentOn('Checkbox')

@@ -3,9 +3,9 @@ var getWebPackConfig = require('./webpack.config');
 module.exports = {
   webpackConfig: getWebPackConfig,
   host: 'localhost',
-  port: 8090,
+  port: 6007,
   include: [],
   suites: {
-    feature: './lab/lab-configuration.module.ts'
+    feature: './lab/ng2-lab-configuration.module.ts'
   }
 };

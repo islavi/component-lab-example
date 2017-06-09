@@ -1,4 +1,4 @@
-import { experimentOn } from 'component-lab';
+import { experimentOn } from '@islavi/ng2-component-lab';
 import { ButtonComponent } from "./../components/button.component";
 
 export default experimentOn('Button')
