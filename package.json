@@ -1,6 +1,6 @@
 {
-  "name": "ng2-component-lab-example",
-  "version": "1.0.1",
+  "name": "@islavi/ng2-component-lab-example",
+  "version": "1.0.2",
   "description": "Sample usage of @islavi/ng2-component-lab",
   "scripts": {
     "start": "npm run lab",
@@ -28,11 +28,11 @@
     "zone.js": "~0.6.26"
   },
   "devDependencies": {
+    "@islavi/ng2-component-lab": "^1.0.1",
     "@types/node": "^6.0.48",
     "angular2-router-loader": "^0.3.4",
     "angular2-template-loader": "^0.6.0",
     "awesome-typescript-loader": "^2.2.4",
-    "@islavi/ng2-component-lab": "file:///C:\\dev\\github\\islavi\\ng2-component-lab\\release",
     "css-loader": "^0.25.0",
     "raw-loader": "^0.5.1",
     "to-string-loader": "^1.1.4",
