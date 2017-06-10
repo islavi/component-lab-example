@@ -1,5 +1,5 @@
 import { createLab } from '@islavi/ng2-component-lab';
-import { ComponentsModule } from './components.module';
+import { ComponentsModule } from './../components/components.module';
 
 createLab({
   /**
@@ -15,8 +15,8 @@ createLab({
    * default exports as an array:
    */
   loadExperiments() {
-    const context = (require as any).context('./', true, /\.exp\.ts/);
-	var result = context.keys().map(context).map(mod => mod.default);
+    const context = (require as any).context('./../experiments/', true, /\.exp\.ts/);
+    var result = context.keys().map(context).map(mod => mod.default);
     return result;
   }
 });

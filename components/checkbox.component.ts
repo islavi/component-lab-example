@@ -1,8 +1,8 @@
 import { Component, Input } from "@angular/core";
 
 @Component({
-  selector: "sdc-checkbox",
-  template: "<input type='checkbox' name='{{name}}'>{{label}}"
+  selector: "my-checkbox",
+  template: `<input type='checkbox' name='{{name}}'>{{label}}`
 })
 export class CheckboxComponent {
 

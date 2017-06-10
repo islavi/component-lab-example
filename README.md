@@ -1,20 +1,15 @@
 # Component Lab Example
-Example of ng2-component-lab project
+Example usage of ng2-component-lab project found at: <a href="https://github.com/islavi/ng2-component-lab">https://github.com/islavi/ng2-component-lab</a>
 
 ### Getting Started
 
 #### Installation and Configuration
-1. Install Component Lab Example:
+1. Install Ng2 Component Lab Example:
 
   Download it from GitHub
-
+  <a href="https://github.com/islavi/ng2-component-lab-example">https://github.com/islavi/ng2-component-lab-example</a>
   
-2. Configure the path to ng2-component-lab in package.json file:
-
-   Open package.json file and search for ng2-component-lab in devDependencies.
-   Change the path to your local path of ng2-component-lab (see instructions in ng2-component-lab in my GitHub).
-  
-3. Install all dependencies:
+2. Install all dependencies:
 
   Via npm:
   ```bash
@@ -26,31 +21,19 @@ Example of ng2-component-lab project
   yarn install
   ```
   
-4. Build ng2-component-lab-example: 
+3. Run the example:
 
   Via npm:
   ```bash
-  npm run build
+  npm run start
   ```
 
   Via yarn:
   ```bash
-  yarn run build
+  yarn run start
   ```
 
-5. Run the example:
-
-  Via npm:
-  ```bash
-  npm run ng2-component-lab -- feature
-  ```
-
-  Via yarn:
-  ```bash
-  yarn run ng2-component-lab -- feature
-  ```
-
-6. Open your browser and navigate to:
+4. Open your browser and navigate to:
    http://localhost:6007
    You should see the example.
    

@@ -1,13 +1,10 @@
 {
-  "name": "angular2-seed",
-  "version": "1.0.0",
-  "description": "A simple starter Angular2 project",
+  "name": "ng2-component-lab-example",
+  "version": "1.0.1",
+  "description": "Sample usage of @islavi/ng2-component-lab",
   "scripts": {
-    "build": "webpack --progress",
-    "watch": "npm run build -- --watch",
-    "server": "webpack-dev-server --inline --progress --port 3000 --content-base src",
-    "start": "npm run server",
-	"ng2-component-lab": "ng2-component-lab"
+    "start": "npm run lab",
+    "lab": "ng2-component-lab --config .lab/ng2-component-lab.config.js -- feature"
   },
   "license": "MIT",
   "dependencies": {
@@ -35,13 +32,12 @@
     "angular2-router-loader": "^0.3.4",
     "angular2-template-loader": "^0.6.0",
     "awesome-typescript-loader": "^2.2.4",
-	"@islavi/ng2-component-lab": "file:///C:\\dev\\github\\islavi\\ng2-component-lab\\release",
+    "@islavi/ng2-component-lab": "file:///C:\\dev\\github\\islavi\\ng2-component-lab\\release",
     "css-loader": "^0.25.0",
     "raw-loader": "^0.5.1",
     "to-string-loader": "^1.1.4",
     "typescript": "~2.0.10",
     "webpack": "2.1.0-beta.27",
-    "webpack-dev-server": "2.1.0-beta.11",
-    "webpack-merge": "^0.15.0"
+    "webpack-dev-server": "2.1.0-beta.11"
   }
 }
